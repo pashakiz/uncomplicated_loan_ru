@@ -1,0 +1,52 @@
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+@media only screen and (min-width : 320px) {}
+
+@media only screen and (min-width : 480px) {
+    .header__content {
+        width: 410px;
+    }
+    .header__preform {
+        padding: 0 45px;
+    }
+    .header__form {
+        padding: 32px 45px;
+        background-color: rgba(255,255,255,0.25);
+        border-radius: 30px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .header__content {
+        width: 496px;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .bullets {
+        padding: 50px 0;
+    }
+    .bullet {
+        margin-top: 0;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .footer {
+        padding: 0;
+    }
+    .footer-link {
+        display: block;
+        padding: 38px 0 36px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
